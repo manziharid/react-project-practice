@@ -4,13 +4,16 @@ function App() {
   
 
   return (
-    <>
-     <div className="bg-[#0e0f15] h-screen w-full relative">
-      <div className="flex align-center absolute bg-[#162659] w-[40%] h-[50%]  rounded-full top-[30%] left-[30%] blur-lg p-10" ></div>
-      <Header />
+    
+     <div className="bg-[#0e0f15] min-h-screen w-full relative">
+      <div className="flex place-content-center absolute bg-[#162659] w-[60%] h-[70%]  rounded-full top-[10%] left-[20%] blur-2xl" ></div>
+      <div className="relative z-10">
+        <Header />
       <Body />
       </div>
-    </>
+      
+      </div>
+    
   )
 }
 
