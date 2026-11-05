@@ -1,9 +1,9 @@
 import { Plus, ChevronDown, Mic } from "lucide-react";
 export default function Body(){
     return(
-       <div className="flex h-screen items-center justify-self-center  flex-col flex-1 gap-6 px-4 ">
+       <div className="flex h-screen items-center justify-center  flex-col flex-1 gap-6 px-4 top-[50%] ">
         <p className=" font-medium text-4xl text-white ">Where should we start?</p>
-        <div className="flex  rounded-full w-full h-16 bg-[#1e201e] text-white max-w-2xl  px-50 justify-between items-center ">
+        <div className="flex  rounded-full w-full h-16 bg-[#1e201e] text-white max-w-2xl  px-50 items-center justify-between">
             <div className="flex items-center flex-1 mr-4 ">
             <button className="hover:text-white  transition-colors">
                 <Plus strokeWidth={1.5} nonScalingStroke />
