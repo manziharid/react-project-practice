@@ -7,7 +7,7 @@ export  default function Header(){
     return(
         <div className="flex p-2 justify-between">
             <div className="flex gap-2">
-             <LayoutGridCircles strokeWidth={1.5} nonScalingStroke  className="text-white"/>
+             <LayoutGridCircles strokeWidth={1.5} nonScalingStroke  className="text-gray-500"/>
              <img src={logo} alt=""/>
              
             </div>
@@ -22,10 +22,10 @@ export  default function Header(){
 
                 <button className="rounded-xl bg-[#719bd6] w-[71px] h-[32px] text-white"> Search</button>
             </div>
-            <div className="flex text-white gap-2 justify-end-safe">
-                <Megaphone strokeWidth={1.5} nonScalingStroke />
-                <Bell strokeWidth={1.5} nonScalingStroke />
-                <Info strokeWidth={1.5} nonScalingStroke />
+            <div className="flex text-gray-500 gap-2 justify-end-safe">
+                <Megaphone strokeWidth={1} nonScalingStroke />
+                <Bell strokeWidth={1} nonScalingStroke />
+                <Info strokeWidth={1} nonScalingStroke />
                 <img src={mk} alt="" className="w-[21px] h-[21px]"/>
 
             </div>
