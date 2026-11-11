@@ -13,6 +13,7 @@ export default function Inbox(){
             <div className="flex gap-2 m-2">
                 <TextAlignJustifyCenter strokeWidth={1.5} nonScalingStroke />
                 <Ellipsis strokeWidth={1.5} nonScalingStroke />
+                
 
             </div>
             

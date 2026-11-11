@@ -3,7 +3,8 @@
 import type { LucideIcon } from 'lucide-react/types'
 
 type InboxItemProp = {
-    title : string
+    title : string,
+    
 }
 
 export default function InboxItem( {title}: InboxItemProp){
