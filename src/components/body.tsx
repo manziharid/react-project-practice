@@ -1,7 +1,8 @@
 
-import { SquareKanban, ChevronDown, Plug, Zap, TextAlignJustifyCenter, Star, LockKeyhole, UserRoundPlus, Ellipsis } from 'lucide-react'
+import { SquareKanban, ChevronDown, Plug, Zap, TextAlignJustifyCenter, Star, LockKeyhole, UserRoundPlus, Ellipsis, Plus, StickyNotePlus } from 'lucide-react'
 import backgroundimage from '/src/image/backgroundimage.webp'
 import mk from '/src/image/mk.png'
+import BodyItem from './BodyItem.tsx'
 export default function Body(){
 
     return(
@@ -32,8 +33,21 @@ export default function Body(){
                 </div>
 
             </div>
-            <div></div>
+            <div className="flex p-4 gap-3">
+                <BodyItem  title="Auca Weekely schedule"  count={2} Icon={Ellipsis} heading="Java Assignment" heading2='SMD class' Icons={Plus} Iconv={StickyNotePlus} />
+
+                <BodyItem  title="To DO schedule"  count={1} Icon={Ellipsis} heading="Trello cloning" heading2='Duolingo exam' Icons={Plus} Iconv={StickyNotePlus} />
+            </div> 
 
         </div>
     )
 }
+// type Item ={
+//     Icon : LucideIcon
+//     title : string,
+//     heading : string,
+//     heading2: string,
+//     count : number,
+//     Iconp : LucideIcon,
+//     Icone : LucideIcon
+// }
