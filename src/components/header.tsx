@@ -1,7 +1,7 @@
 
-import mk from './image/mk.png'
+import mk from '/src/image/mk.png'
 import {LayoutGridCircles, Search, Megaphone, Bell, Info } from 'lucide-react'
-import logo from './logo.svg'
+import logo from '/src/logo.svg'
 export  default function Header(){
  
     return(
@@ -20,7 +20,7 @@ export  default function Header(){
 
                 </div>
 
-                <button className="rounded-xl bg-[#719bd6] w-[71px] h-[32px] text-white"> Search</button>
+                <button className="rounded-xl bg-[#719bd6] w-[71px] h-[32px] text-white"> Create</button>
             </div>
             <div className="flex text-gray-500 gap-2 justify-end-safe">
                 <Megaphone strokeWidth={1} nonScalingStroke />

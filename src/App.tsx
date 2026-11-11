@@ -1,7 +1,7 @@
 import { useState } from 'react'
-import Header from './header'
-import Sidebar from './sidebar'
-import Body from './body'
+import Header from './components/header'
+import Inbox from './components/Inbox'
+import Body from './components/body'
 
 function App() {
   
@@ -10,9 +10,10 @@ function App() {
     <div className="bg-[#1f1f21] h-screen w-full ">
       
       <Header />
-      <Sidebar />
+      <div className="flex gap-3">
+      <Inbox />
       <Body />
-      
+      </div>
           
     </div>
   )
