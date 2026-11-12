@@ -37,6 +37,7 @@ export default function Body(){
                 <BodyItem  title="Auca Weekely schedule"  count={2} Icon={Ellipsis} heading="Java Assignment" heading2='SMD class' Icons={Plus} Iconv={StickyNotePlus} />
 
                 <BodyItem  title="To DO schedule"  count={1} Icon={Ellipsis} heading="Trello cloning" heading2='Duolingo exam' Icons={Plus} Iconv={StickyNotePlus} />
+                <BodyItem  title="DOING"  count={3} Icon={Ellipsis} heading="Trello c" heading2='Duolingo exam' Icons={Plus} Iconv={StickyNotePlus} />
             </div> 
 
         </div>

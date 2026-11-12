@@ -29,11 +29,11 @@ export default function BodyItem({Icon, title, heading, heading2, count, Icons, 
         <button className="text-left px-3 rounded-lg bg-[#22252a] w-full h-[38px] text-sm text-[#dee4ee] font-normal hover:bg-[#2c3036] transition-colors">
             {heading}
         </button>
-        {heading2 && (
+        {heading2 && 
             <button className="text-left px-3 rounded-lg bg-[#22252a] w-full h-[38px] text-sm text-[#dee4ee] font-normal hover:bg-[#2c3036] transition-colors">
                 {heading2}
             </button>
-        )}
+        }
     </div>
     
     
