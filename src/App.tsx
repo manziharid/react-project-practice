@@ -2,6 +2,7 @@ import { useState } from 'react'
 import Header from './components/header'
 import Inbox from './components/Inbox'
 import Body from './components/body'
+import Testing from './components/testing'
 
 function App() {
   
@@ -13,6 +14,7 @@ function App() {
       <div className="flex gap-3">
       <Inbox />
       <Body />
+      {/* <Testing /> */}
       </div>
           
     </div>
