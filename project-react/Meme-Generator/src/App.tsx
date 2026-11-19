@@ -4,6 +4,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import Header from './component/Header.tsx'
 import Body from './component/Body.tsx'
+import Anime from './component/anime.tsx'
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
     <div>
       <Header />
       <Body />
+      <Anime />
         
     </div>
   )
