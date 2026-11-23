@@ -5,9 +5,9 @@ export default function Body() {
                 <div className="bg-[#7e7b75] w-full h-[80px]">
 
                 </div>
-                <div className="grid grid-cols-2 border-solid border-2">
-                    <div></div>
-                    <div></div>
+                <div className="grid grid-cols-[400px_100px] h-[420px] ">
+                    <div className=""></div>
+                    <div className=" bg-orange-500"></div>
                 </div>
             </div>
         </div>
