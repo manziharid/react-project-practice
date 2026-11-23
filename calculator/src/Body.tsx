@@ -6,7 +6,12 @@ export default function Body() {
 
                 </div>
                 <div className="grid grid-cols-[400px_100px] h-[420px] ">
-                    <div className=""></div>
+                    <div className="">
+                        <div>
+                    <button className="w-[80px] h-[80px] bg-white rounded-xl shadow-md hover:shadow-lg transition duration-300">
+</button>
+                        </div>
+                    </div>
                     <div className=" bg-orange-500"></div>
                 </div>
             </div>
