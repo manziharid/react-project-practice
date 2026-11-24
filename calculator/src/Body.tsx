@@ -1,4 +1,5 @@
 import Button from './Button.tsx'
+import Operation from './Operation.tsx';
 
 export default function Body() {
     return (
@@ -29,7 +30,13 @@ export default function Body() {
                     </div>
 
                     
-                    <div className="bg-orange-500">
+                    <div className="bg-orange-500 flex flex-col gap-2">
+                        <Operation sign= {'+'} />
+                        <Operation sign= {'-'} />  
+                        <Operation sign= {'X'} /> 
+                        <Operation sign= {'/'} /> 
+                        <Operation sign= {' = '} />                   
+
                     </div>
 
                 </div>
