@@ -1,10 +1,13 @@
 type ButtonProps = {
     value: number | string;
+    onClick?: () => void;
 }
 
-export default function Button({ value }: ButtonProps) {
+export default function Button({ value, onClick }: ButtonProps) {
     return (
-        <button className="bg-gray-100 rounded-md text-2xl font-semibold text-black hover:bg-gray-200">
+        <button  
+        onClick={onClick}
+        className="bg-gray-100 rounded-md text-2xl font-semibold text-black hover:bg-gray-200">
             {value}
         </button>
     );
